@@ -1,0 +1,29 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    padding-top: 0;
+    color: $main-color;
+    input, textarea {
+        margin-bottom: 30px;
+        margin-top: 5px;
+        
+    }
+    .send-btn{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: none;
+        height: 40px;
+        background-color: $main-color;
+        cursor: pointer;
+        color: $text-color;
+        font-weight: bolder;
+        font-size: 1.2em;
+        text-shadow: 1px 1px 5px black;
+
+        &:hover{
+            background-color: rgba($main-color, .8);
+        }
+
+    }
+}

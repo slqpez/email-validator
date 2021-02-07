@@ -28,27 +28,76 @@ body {
 .info-section .info-section__title {
   color: #F0C40D;
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .info-section .info-section__text {
   font-size: 1em;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .info-section .fa-envelope {
-  color: white;
+  color: #F0C40D;
+}
+
+.info-section .fa-envelope:hover {
+  color: rgba(240, 196, 13, 0.8);
+  cursor: pointer;
 }
 
 .info-section address {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .info-section address .email {
   color: #FFF;
 }
 
+.info-section .info-section__phone .fa-phone {
+  color: #F0C40D;
+}
+
+.info-section .info-section__phone .fa-phone:hover {
+  color: rgba(240, 196, 13, 0.8);
+  cursor: pointer;
+}
+
 .info-section .info-section__phone .phone {
   color: #FFF;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px;
+  padding-top: 0;
+  color: #F0C40D;
+}
+
+.form input, .form textarea {
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.form .send-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  height: 40px;
+  background-color: #F0C40D;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 5px black;
+}
+
+.form .send-btn:hover {
+  background-color: rgba(240, 196, 13, 0.8);
 }
 /*# sourceMappingURL=main.css.map */
