@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #3F3F3F;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  margin: 80px 80px 40px 50px;
+  color: #FFF;
+}
+
+.info-section {
+  text-align: right;
+  width: 100%;
+  height: 100vh;
+}
+
+.info-section .info-section__title {
+  color: #F0C40D;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.info-section .info-section__text {
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.info-section .fa-envelope {
+  color: white;
+}
+
+.info-section address {
+  margin-bottom: 40px;
+}
+
+.info-section address .email {
+  color: #FFF;
+}
+
+.info-section .info-section__phone .phone {
+  color: #FFF;
+}
+/*# sourceMappingURL=main.css.map */

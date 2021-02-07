@@ -1,0 +1,32 @@
+.info-section{
+    
+    text-align: right;
+    width: 100%;
+    height: 100vh;
+    .info-section__title{
+        color:$main-color;
+        font-size: 2em;
+        margin-bottom: 10px;
+        
+    }
+    .info-section__text{
+        font-size: 1em;
+        margin-bottom: 40px;
+    }
+
+    .fa-envelope{
+        color: white;
+        
+    }
+    address{
+        margin-bottom: 40px;
+        .email{
+            color:$text-color;
+    }
+    }
+    .info-section__phone {
+        .phone{
+            color: $text-color;
+    }
+    }
+}
