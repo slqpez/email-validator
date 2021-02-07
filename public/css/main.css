@@ -17,6 +17,7 @@ body {
       grid-template-columns: 50% 50%;
   margin: 80px 80px 40px 50px;
   color: #FFF;
+  font-family: 'Oswald', sans-serif;
 }
 
 .info-section {
@@ -33,7 +34,7 @@ body {
 
 .info-section .info-section__text {
   font-size: 1em;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .info-section .fa-envelope {
@@ -46,7 +47,7 @@ body {
 }
 
 .info-section address {
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .info-section address .email {
@@ -82,6 +83,14 @@ body {
 .form input, .form textarea {
   margin-bottom: 30px;
   margin-top: 5px;
+  font-weight: bolder;
+  color: #3F3F3F;
+  padding: 3px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.form label {
+  font-weight: 400;
 }
 
 .form .send-btn {
@@ -92,12 +101,16 @@ body {
   background-color: #F0C40D;
   cursor: pointer;
   color: #FFF;
-  font-weight: bolder;
+  font-weight: 400;
   font-size: 1.2em;
   text-shadow: 1px 1px 5px black;
+  -webkit-box-shadow: 0px 3px 0px 3px rgba(240, 196, 13, 0.8);
+          box-shadow: 0px 3px 0px 3px rgba(240, 196, 13, 0.8);
 }
 
 .form .send-btn:hover {
   background-color: rgba(240, 196, 13, 0.8);
+  -webkit-box-shadow: 0px 3px 0px 3px #f0c40d;
+          box-shadow: 0px 3px 0px 3px #f0c40d;
 }
 /*# sourceMappingURL=main.css.map */
