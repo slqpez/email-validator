@@ -16,5 +16,10 @@ body{
     color: $text-color;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
+
+    @media(max-width: 800px){
+        display: flex;
+        flex-direction: column;
+    }
     
 }

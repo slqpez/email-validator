@@ -12,23 +12,37 @@
     .info-section__text{
         font-size: 1em;
         margin-bottom: 50px;
+        @media(max-width: 800px){
+            margin-bottom: 20px;
+        }
     }
 
-    .fa-envelope{
-        color: $main-color;
-
-        &:hover{
-            color: rgba($main-color, .8);
-            cursor: pointer;
+    
+    .info-section__mail{
+        
+        margin-bottom: 50px;
+            .email{
+                color:$text-color;
         }
         
+        .fa-envelope{
+            color: $main-color;
+    
+            &:hover{
+                color: rgba($main-color, .8);
+                cursor: pointer;
+            }
+            
+        }
+        @media(max-width: 800px){
+            display: inline;
+            margin-right: 20px;
+            text-align: left;
+            line-height: 40px;
+        }
     }
-    address{
-        margin-bottom: 50px;
-        .email{
-            color:$text-color;
-    }
-    }
+    
+   
     .info-section__phone {
         .fa-phone{
             color: $main-color;
@@ -42,5 +56,20 @@
             color: $text-color;
             
     }
+    @media(max-width: 800px){
+        display: inline;
     }
+    @media(max-width: 475px){
+        display: block;
+        margin-top: 10px;
+    }
+    }
+    @media(max-width: 800px){
+        height: auto;
+        text-align: center;
+        margin-bottom: 40px;
+        
+    }
+
+   
 }

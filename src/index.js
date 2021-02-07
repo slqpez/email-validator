@@ -9,8 +9,8 @@ btn.addEventListener('click', (e)=>{
 })
 
 mailInput.addEventListener('blur', isEmpty)
-messageInput.addEventListener('blur', isEmpty)
 subjectInput.addEventListener('blur', isEmpty)
+messageInput.addEventListener('mouseout', isEmpty)
 
 function isEmpty(e){
     if(e.target.value===""){
