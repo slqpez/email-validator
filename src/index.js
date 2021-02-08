@@ -3,11 +3,19 @@ const subjectInput = document.querySelector('#subject')
 const messageInput = document.querySelector('#message')
 const btn = document.querySelector('.send-btn')
 const form = document.querySelector('.form')
+const spinner = document.querySelector(".sk-chase")
 
 const er =/^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i
 
 btn.addEventListener('click', (e)=>{
     e.preventDefault();
+    showMessage("Correo enviado.")
+    spinner.style.display= "flex"
+    hideSpinner()
+    removeMessage()
+    form.reset()
+    btn.disabled = true
+    
     
 })
 
@@ -68,4 +76,18 @@ function validateMail(){
         mailInput.classList.add("invalid")
         
     }
+}
+
+function hideSpinner(){
+    setTimeout(() => {
+        spinner.style.display= "none"
+    },2000)
+}
+function removeMessage(){
+    const msg = document.querySelector(".msg")
+    setTimeout(() => {
+        if(msg){
+            msg.remove()
+        }
+    },3000)
 }
